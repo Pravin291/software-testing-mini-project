@@ -1,0 +1,42 @@
+/* TestingForm.module.css */
+
+.TestForm {
+    display: flex;
+    margin: 10px 20%;
+   flex-direction: column;
+   color: blueviolet;
+   padding:30px;
+   border: 2px solid rgb(87, 139, 139);
+   border-radius: 10px;
+   background-color: aliceblue;
+  }
+
+
+  .FormContainer{
+    color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .FormContainer div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .FormContainer div label{
+    margin-top:20px;
+    
+  }
+
+  .labels{
+    display: flex;
+  }
+
+  .submitbutton{
+    display: flex;
+    color:green;
+    justify-content: center;
+  }
+ 
+  
